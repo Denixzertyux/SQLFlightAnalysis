@@ -1,0 +1,20 @@
+CREATE TABLE flights (
+    year INT,
+    month INT,
+    day_of_month INT,
+    day_of_week INT,
+    fl_date DATE,
+    origin VARCHAR(5),
+    origin_city_name VARCHAR(255),
+    origin_state_nm VARCHAR(255),
+    dep_time INT,
+    taxi_out INT,
+    wheels_off INT,
+    wheels_on INT,
+    taxi_in INT,
+    cancelled INT,
+    arr_time INT,
+    distance INT,
+    weather_delay INT,
+    late_aircraft_delay INT
+);
